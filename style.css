@@ -127,10 +127,9 @@ body {
 	width: 1449px;
 	border-radius: 21px;
 	margin: 0 31px 40px 31px;
-	background-image: url("./images/hero-bg.png");
 	display: flex;
 	flex-direction: column;
-	background: linear-gradient(to left, rgba(138, 66, 10, 0.4) 0%, rgba(0, 0, 0, 0.85) 100%);
+	background: linear-gradient(to left, rgba(138, 66, 10, 0.4) 0%, rgba(0, 0, 0, 0.85) 100%),url("./images/hero-bg.png");
 }
 
 .rating {
