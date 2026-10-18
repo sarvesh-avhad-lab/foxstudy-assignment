@@ -392,5 +392,58 @@ Courses cards and details
 
 .courses-section {
 	background-image: url(./images/courses/honeycomb-bg.png);
-	margin-top: 100px;
+	margin: 100px 0 0 0;
+	height: 1344px;
+	width: 1512px;
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
 }
+
+.course-info {
+	margin-top: 100px;
+	margin-left: 263px;
+	height: 279px;
+	width: 984px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.course-info h3 {
+	font-family: "Inter";
+	font-size: 42px;
+	line-height: 63px;
+	letter-spacing: 1%;
+	height: 126px;
+	width: 812px;
+	margin-left: 86px;
+	text-align: center;
+}
+
+
+
+#practical-para {
+	font-family: "Plus Jakarta Sans";
+	font-size: 23.1px;
+	line-height: 36.75px;
+	height: 74px;
+	width: 984px;
+	color: #575250;
+	margin-top: 21px;
+	text-align: center;
+}
+
+#browse-courses-para {
+	height: 37px;
+	width: 984px;
+	font-family: "Plus Jakarta Sans";
+	font-size: 23.1px;
+	line-height: 36.75px;
+	font-weight: 500;
+	color: #D07631;
+	margin-top: 21px;
+	text-align: center;
+}
+
