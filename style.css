@@ -1140,3 +1140,118 @@ Exoert section
 	margin-left: 5.67px;
 	margin-top: 8.67px;
 }
+
+/*****************
+ reviews-section  
+ *******************/
+
+ .reviews-section {
+	display: flex;
+	flex-direction: column;
+	height: 933px;
+	width: 1512px;
+	background-color: #F6F6F6;
+}
+
+.review-top {
+	margin-top: 100px;
+	margin-left: 349.65px;
+}
+
+.review-top h4 {
+	height: 126px;
+	width: 812px;
+	font-family: "Inter";
+	font-size: 42px;
+	line-height: 63px;
+	letter-spacing: 1%;
+	text-align: center;
+	font-weight: 600;
+	padding: auto 0;
+	vertical-align: middle;
+
+}
+
+.review-top p {
+	height: 74px;
+	width: 812px;
+	font-family: "Plus Jakarta Sans";
+	font-size: 23.1px;
+	font-weight: 500;
+	align-items: center;
+	color: #575250;
+	text-align: center;
+	margin-top: 21px;
+}
+
+.cards {
+	height: 428px;
+	width: 934.5px;
+	margin-top: 84px;
+	margin-left: 288px;
+
+}
+
+.card {
+	height: 325.5px;
+	width: 934.5px;
+	background-color: #FFFFFF;
+	border-radius: 21px;
+}
+
+#quote-up-img {
+	height: 52.5px;
+	width: 52.5px;
+	margin-top: 36.55px;
+	margin-left: 30.45px;
+	
+}
+
+#five-star-img {
+	height: 21px;
+	width: 112px;
+	margin-top: 56.5px;
+	margin-left: 39.px;
+}
+
+.card p {
+	height: 84px;
+	width: 683px;
+	/* margin-top: 101.2px; */
+	margin-left: 122.85px;	
+	font-family: "Plus Jakarta Sans";
+	font-size: 27.3px;
+	line-height: 42px;
+
+}
+
+#dr-img {
+	height: 63px;
+	width: 63px;
+	border-radius: 50px;
+	margin-top: 39px;
+	margin-left: 122px;
+	display: inline-block;
+}
+
+.reviewer-name {
+	font-family: "Plus Jakarta Sans";
+	font-size: 16.8px;
+	line-height: 26.25px;
+	height: 27px;
+	width: 290px;
+	color: #1E1810;
+
+	margin-left: 26.25px;
+	margin-top: 45.6px;
+
+
+}
+
+.reviewer-name p {
+	font-family: "Plus Jakarta Sans";
+	font-size: 12.6px;
+	line-height: 18.9px;
+	height: 19px;
+	width: 315px;
+}
