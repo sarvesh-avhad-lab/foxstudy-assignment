@@ -22,6 +22,7 @@ body {
 
 .header-left {
 	display: flex;
+	margin-bottom: 36px;
 }
 
 #fox-logo {
@@ -96,6 +97,8 @@ body {
 	align-items: center;
 
 	padding: 11px 36px;
+
+	margin-right: 37px;
 }
 
 .login-btn span {
@@ -112,4 +115,136 @@ body {
 	height: 21px;
 	width: 21px;
 	margin-left: 8px;
+}
+
+
+/*  *********************
+ hero section
+********************** */
+
+.hero-section {
+	height: 823px;
+	width: 1449px;
+	border-radius: 21px;
+	margin: 0 31px 40px 31px;
+	background-image: url("./images/hero-bg.png");
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(to left, rgba(138, 66, 10, 0.4) 0%, rgba(0, 0, 0, 0.85) 100%);
+}
+
+.rating {
+	height: 37px;
+	width: 215px;
+	margin-top: 98.7px;
+	margin-left: 53.55px;
+	background-color: #FFC49C4D;
+	border-radius: 703.41px;
+	display: flex;
+	/* padding: 8.45px 14.08px 8.45px 14.08px; */
+}
+
+.rating img {
+	height: 21px;
+	width: 21px;
+	margin-left: 14px;
+	margin-top: 8.45px;
+	margin-bottom: 8.45px;
+}
+
+.rating p {
+	font-family: "Inter";
+	font-size: 12.67px;
+	line-height: 100%;
+	color: #F6F6F6;
+	font-weight: 500;
+	margin-top: 11.45px;
+	margin-left: 7px;
+	margin-bottom: 11.45px;
+}
+
+.hero-heading {
+	height: 336px;
+	width: 720px;
+}
+
+.hero-heading {
+	margin-left: 53.55px;
+	margin-top: 31.5px;
+}
+
+.hero-heading h3 {
+	font-family: "Plus Jakarta Sans";
+	font-size: 63px;
+	line-height: 84px;
+	height: 336px;
+	width: 720px;
+	color: #FFFFFF;
+}
+
+.hero-para {
+	height: 111px;
+	width: 693px;
+	margin-left: 53.55px;
+	margin-top: 26.55px;
+}
+
+.hero-para p {
+	font-family: "Plus Jakarta Sans";
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 36.75px;
+	color: #FFFFFF;
+}
+
+.find-buttons {
+	margin-top: 30.75px;
+	margin-left: 53.55px;
+	display: flex;
+	height: 52px;
+	width: 494px;
+	justify-content: space-between;
+}
+
+.find-courses-btn {
+	height: 52px;
+	width: 236px;
+	border-radius: 42px;
+	background: linear-gradient(90deg, #dc4329 0%, #d07631 100%);
+	gap: 8.4px;
+	display: flex;
+	padding: 16.8px 27.3px 16.8px 27.3px;
+}
+
+.find-courses-btn span {
+	font-family: "Plus Jakarta Sans";
+	font-size: 18.9px;
+	font-weight: 500;
+	line-height: 23.1px;
+	height: 24px;
+	width: 152px;
+	color: rgba(255, 255, 255, 1);
+}	
+
+.for-clinics-btn {
+	height: 52px;
+	width: 247px;
+	border: 1.05px solid rgba(246, 246, 246, 1);
+	border-radius: 42px;
+	padding: 16.8px 27.3px 16.8px 27.3px;
+}
+
+.for-clinics-btn span {
+	font-family: "Plus Jakarta Sans";
+	font-size: 18.9px;
+	line-height: 23.1px;
+	font-weight: 500;
+	color: rgba(246, 246, 246, 1);
+	height: 24px;
+	width: 163px;
+}
+
+#right-arrow {
+	height: 21px;
+	width: 21px;
 }
