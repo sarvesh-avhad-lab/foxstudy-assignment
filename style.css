@@ -86,3 +86,30 @@ body {
 	margin-bottom: 17px;
 }
 
+.login-btn {
+	height: 47px;
+	width: 153px;
+	border-radius: 42px;
+	background: linear-gradient(90deg, #dc4329 0%, #d07631 100%);
+
+	display: flex;
+	align-items: center;
+
+	padding: 11px 36px;
+}
+
+.login-btn span {
+	font-family: "Plus Jakarta Sans";
+	font-size: 18.9px;
+	line-height: 23.1px;
+	color: rgba(255, 255, 255, 1);
+	font-weight: 500;
+	height: 24px;
+	width: 51px;
+}
+
+.login-btn img {
+	height: 21px;
+	width: 21px;
+	margin-left: 8px;
+}
