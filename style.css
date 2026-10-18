@@ -725,3 +725,88 @@ Features cards
     height: 21px;
     object-fit: contain;
 }
+
+/****************
+Learning steps section
+******************/
+
+.learning-steps-section {
+	height: 612px;
+	width: 1512px;
+}
+
+.learning-steps-section h3 {
+	height: 63px;
+	width: 812px;
+	margin-top: 100px;
+	margin-left: 349.65px;
+	text-align: center;
+	font: "Inter";
+	font-size: 42px;
+	line-height: 63px;
+	font-weight: 600;
+	letter-spacing: 1%;
+	color: #000000;
+}
+
+.steps-div {
+	display: flex;
+	flex-direction: column;
+	margin-top: 84px;
+	margin-left: 220.5px;
+	gap: 23.1px;
+}
+
+.learning-steps {
+	display: flex;
+	align-items: center;
+	margin-left: 112.87px;
+}
+
+.steps-description {
+	display: flex;
+
+}
+
+.step1-description {
+	height: 153.25px;
+	width: 315px;
+	padding: 15.75px;
+}
+
+.step1-description h4,
+.step2-description h4,
+.step3-description h4 {
+	font-family: "Plus Jakarta Sans";
+	font-size: 23.1px;
+	line-height: 26.25px;
+	font-weight: 600;
+	height: 27px;
+	width: 290px;
+	text-align: center;
+}
+
+.step1-description p,
+.step2-description p,
+.step3-description p {
+	font-family: "Plus Jakarta Sans";
+	font-size: 16.8px;
+	line-height: 26.25px;
+	height: 280px;
+	width: 280px;
+	color: #575250;
+	text-align: center;
+	margin-top: 15px;
+}
+
+
+.step2-description {
+	height: 265px;
+	width: 315px;
+	margin-left: 63px;
+	padding: 15.75px;
+}	
+
+.step3-description{
+	margin-left: 63px;
+}
