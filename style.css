@@ -354,3 +354,33 @@ Features cards
 	text-align: center;
 }
 
+.client-logos {
+	height: 201px;
+	width: 1365px;
+	margin-top: 84px;
+	margin-left: 73.5px;
+}
+
+.trust-logo-container {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+.logos-top {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 29.4px;
+}
+
+.logos-bottom {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 29.4px;
+}
+
+.logos-top img,
+.logos-bottom img {
+	height: 73.5px;
+	width: 183.75px;
+}
