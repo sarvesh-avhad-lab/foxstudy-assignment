@@ -384,3 +384,13 @@ Features cards
 	height: 73.5px;
 	width: 183.75px;
 }
+
+
+/***********************
+Courses cards and details
+***********************/
+
+.courses-section {
+	background-image: url(./images/courses/honeycomb-bg.png);
+	margin-top: 100px;
+}
