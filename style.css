@@ -247,3 +247,78 @@ body {
 	height: 21px;
 	width: 21px;
 }
+
+/*************
+Features cards
+*************/
+
+.features-cards {
+	display: flex;
+	width: 1449.4px;
+	justify-content: space-between;
+	margin-left: 31.3px;
+}
+
+.individual-card {
+	height: 273px;
+	width: 334px;
+	border-radius: 21px;
+	padding-left: 21px;
+}
+
+#card1 {
+	background-image: url(./images/features/F1.png);
+}
+
+#card2 {
+	background-image: url(./images/features/F2.png);
+}
+
+#card3 {
+	background-image: url(./images/features/F3.png);
+}
+
+#card4 {
+	background-image: url(./images/features/F4.png);
+}
+
+.num-circle{
+	height: 23px;
+	width: 23px;
+	background-color: #F6F6F6;
+	margin-top: 176.4px;
+	margin-left: 21px;
+	border-radius: 50px;
+}
+
+.num-circle img {
+	height: 16px;
+	width: 5px;
+	margin-top: 3.15px;
+	margin-left: 8.4px;	
+}
+
+
+.individual-card h4 {
+	font-family: "Plus Jakarta Sans";
+	font-size: 16.8px;
+	line-height: 26.25px;
+	height: 27px;
+	width: 290px;
+	font-weight: 600;
+	color: #FFFFFF;
+	margin-left: 21px;
+	margin-top: 5.25px;
+}
+
+.individual-card p {
+	font-family: "Plus Jakarta Sans";
+	font-size: 12.6px;
+	font-weight: 400;
+	height: 16px;
+	width: 257.25px;
+	line-height: 100%;
+	color: #F6F6F6;
+	margin-left: 21px;
+	margin-top: 4.5px;
+}
