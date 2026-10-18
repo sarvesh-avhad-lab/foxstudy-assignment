@@ -931,3 +931,45 @@ Exoert section
 #dr {
     background-image: url("./images/experts/dr.jpg");
 }
+
+.indi-expert h5 {
+	height: 26.25px;
+	width: 203px;
+	padding: 8.45px 14.08px 8.45px 14.08px;
+	border-radius:703.41px ;
+	background-color: #1E181059;
+	margin-top: 14.7px;
+	margin-left: 15.75px;
+	color: rgba(246, 246, 246, 1);
+}
+
+.indi-expert h4 {
+	height: 27px;
+	width: 290px;
+	font-family: "Plus Jakarta Sans";
+	font-size: 16.8px;
+	color: #FFFFFF;
+	line-height: 26.25px;
+	margin-top: 255.15px;
+	margin-left: 15.75px;
+}
+
+.indi-expert p {
+	height: 19px;
+	width: 280px;
+	font-family: "Plus Jakarta Sans";
+	font-size: 12.6px;
+	line-height: 18.9px;
+	color: #F6F6F6;
+	margin-top: 5.25px;
+	margin-left: 15.75px;
+}
+
+#myrtha2 h5 {
+	width: 232px;
+}
+
+.navigate-card {
+	margin-left: 626.85px;
+	align-items: center;
+}
