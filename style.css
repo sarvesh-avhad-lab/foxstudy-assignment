@@ -1352,3 +1352,31 @@ Exoert section
     height: 3.15px;
     object-fit: contain;
 }
+
+
+/* FAQ container  */
+.faq-container {
+	height: 694px;
+	width: 1512px;
+	background-color: #FFFFFF;
+	/* padding: 100px 105px  100px 105px; */
+	
+}
+
+#faq-heading {
+	height: 63px;
+	width: 812px;
+	margin-top: 100px;
+	margin-left: 349.65px;
+	font-family: "Inter";
+	font-size: 42px;
+	line-height: 63px;
+	text-align: center;
+}
+
+.faq-questions {
+	height: 347px;
+	width: 1203px;
+	margin-top: 84px;
+	margin-left: 154px;
+}
