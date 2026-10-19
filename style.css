@@ -1446,3 +1446,33 @@ Exoert section
 	font-weight: 500;
 	margin-top: 33.6px;
 }
+
+
+/* ********************
+	Final main section 
+*********************/
+
+.final-main {
+	height: 694px;
+	width: 1512px;
+	padding: 100px 105px;
+	display: flex;
+}
+
+#dr-tilted {
+	height: 571px;
+	width: 618px;
+	margin-top: 100px;
+	margin-left: 141.75px;
+
+	
+	border-bottom-right-radius: 100px;
+}
+
+#right-side {
+	height: 466px;
+	width: 693px;
+	margin-top: 152px;
+	margin-right: 141px;
+
+}
