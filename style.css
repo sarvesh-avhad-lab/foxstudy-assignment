@@ -1494,7 +1494,7 @@ Exoert section
 
 	display: flex;
 	flex-direction: column;
-	/* gap: 50.4px; */
+	gap: 50.4px;
 }
 
 .white-border h4 {
