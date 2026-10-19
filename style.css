@@ -1462,21 +1462,56 @@ Exoert section
 #dr-tilted {
 	height: 571px;
 	width: 618px;
-	margin-top: 100px;
-	margin-left: 141.75px;
+	/* margin-top: 100px;
+	margin-left: 141.75px; */
 
 	
 	border-bottom-right-radius: 100px;
 }
 
-#right-side {
+
+.final-div-container {
+	height: 571px;
+	width: 1228.5px;
+	display: flex;
+
+	margin: 100px 141px;
+}
+
+.final-main-right {
 	height: 466px;
 	width: 693px;
-	margin-top: 152px;
-	margin-right: 141px;
+	background-color: #1E1810;
+	margin-top: 52.5px;
 
 }
 
+.white-border {
+	height: 445px;
+	width: 672px;
+	border: 1.05px solid #F6F6F6;
+	margin: 10.5px;
+
+	display: flex;
+	flex-direction: column;
+	/* gap: 50.4px; */
+}
+
+.white-border h4 {
+	height: 189px;
+	width: 518px;
+	font-family: "Plus Jakarta Sans";
+	font-size: 42px;
+	line-height: 63px;
+	color: #FFFFFF;
+	letter-spacing: 1%;
+	margin-top: 76.65px;
+	margin-left: 112.35px;
+}
+
+#final-browse-btn {
+	margin-left: 112.35px;
+}
 
 /* Footer section  */
 
