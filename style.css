@@ -1476,3 +1476,164 @@ Exoert section
 	margin-right: 141px;
 
 }
+
+
+/* Footer section  */
+
+footer {
+	height: 706px;
+	width: 1512px;
+	background-color: #090808;
+}
+
+.footer-container {
+	height: 509px;
+	width: 1344px;
+	margin-top: 105px;
+	margin-left: 84px;
+
+
+	display: flex;
+	flex-direction: column;
+	gap: 63px;
+
+}
+
+.footer-top {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 105px;
+	margin-left: 84px;
+}
+
+.footer-top-left {
+	display: flex;
+	flex-direction: column;
+	color: #FFFFFF;
+
+	height: 108px;
+	width: 558px;
+	gap: 21px;
+}
+
+.footer-top-left h2 {
+	font-family: "Plus Jakarta Sans";
+	font-size: 27.3px;
+	line-height: 100%;
+	font-weight: 600;
+}
+
+.footer-top-left p {
+	font-family: "Plus Jakarta Sans";
+	font-size: 14.7px;
+	line-height: 26.25px;
+}
+
+.footer-top-right {
+	height: 50px;
+	width: 523px;
+	display: flex;
+
+}
+
+.footer-email {
+	height: 50px;
+	width: 378px;
+	border-radius: 105px;
+	padding: 14.7px 25.2px 14.7px 25.2px;
+	border: 0.5px solid #FFFFFF3D;
+	color: #FFFFFFB8;
+
+	padding-top: 14.7px;
+	padding-left: 25.2px;
+
+	
+}
+
+.footer-email img {
+	height: 21px;
+	width: 21px;
+}
+
+.footer-email span {
+	margin-top: 14.7px;
+}
+
+.footer-subscribe {
+	margin-left: 8.4px;
+	background: linear-gradient(90deg, #dc4329 0%, #d07631 100%);
+	height: 50px;
+	width: 136px;
+	border-radius: 105px;
+	padding: 14.7px 29.4px 14.7px 29.4px;
+	
+	color: #FFFFFF;
+}
+
+.footer-middle {
+	display: flex;
+	margin-top: 63px;
+	justify-content: space-between;
+	color: #FFFFFF;
+}
+
+.footer-middle-left {
+	display: flex;
+	flex-direction: column;
+	gap: 16.8px;
+	margin-left: 84px;
+
+	height: 127px;
+	width: 382px;
+}
+
+.footer-middle-left img {
+	height: 28px;
+	width: 145px;
+}
+
+.footer-middle-right {
+	height: 97px;
+	width: 645px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {
+  list-style-type: none; 
+  padding: 0;            
+  margin: 0;             
+
+}
+
+li {
+	margin-bottom: 16px;
+}
+
+hr {
+  border: none;            
+  height: 2px;             
+  background-color: #FFFFFF;  
+}
+
+
+.footer-bottom {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 84px;
+}
+
+.footer-bottom-left p{
+	color: #FFFFFF;
+}
+
+.footer-bottom-right {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-bottom-right span {
+	color: #FFFFFF;
+	margin-left: 42px;
+}
