@@ -1379,4 +1379,70 @@ Exoert section
 	width: 1203px;
 	margin-top: 84px;
 	margin-left: 154px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.special-card {
+	height: 210px;
+	width: 586px;
+	display: flex;
+	background-color: #F6F6F6;
+}
+
+.h5-p {
+	display: flex;
+	flex-direction: column;
+}
+
+.special-card img {
+	height: 3px;
+	width: 23px;
+	margin-top: 44.57px;
+	margin-left: 30.45px;
+
+}
+
+.special-card h5 {
+	font-family: "Plus Jakarta Sans";
+	font-size: 23.1px;
+	line-height: 36.75px;
+	font-weight: 500;
+	margin-top: 28.14px;
+	margin-left: 17px;
+}
+
+.special-card p {
+	font-family: "Plus Jakarta Sans";
+	line-height: 26.25px;
+	letter-spacing: 0.11px;
+	margin-left: 17px;	
+}
+
+/* normal card */
+.card-faq {
+	height: 105px;
+	width: 585px;
+	display: flex;
+	gap: 22.31px;
+
+	box-shadow: 0px 5px 3px black;
+	margin-top: 15px;
+
+}
+
+.card-faq img {
+	height: 18px;
+	width: 18px;
+	margin-top: 44.1px;
+	margin-left: 43.05px;
+}
+
+.card-faq h5 {
+	font-family: "Plus Jakarta Sans";
+	font-size: 18.9px;
+	line-height: 36.75px;
+	font-weight: 500;
+	margin-top: 33.6px;
 }
