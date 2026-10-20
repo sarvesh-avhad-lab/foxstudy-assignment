@@ -1703,4 +1703,18 @@ hr {
         padding: 30px 20px;
     }
 
+	.hero-heading {
+		width: 100%;
+		height: auto;
+		margin-left: 0;
+		margin-top: 20px;
+	}
+
+	.hero-heading h3 {
+		width: 100%;
+		height: auto;
+		font-size: 36px;
+		line-height: 1.3;
+	}
+
 }
