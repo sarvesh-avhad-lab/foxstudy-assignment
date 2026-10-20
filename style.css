@@ -1483,8 +1483,13 @@ Exoert section
 	width: 693px;
 	background-color: #1E1810;
 	margin-top: 52.5px;
-
+	margin-left: -100.5px;
 }
+
+ /* z-index */
+ .final-main-right {
+	z-index: -1;
+ }
 
 .white-border {
 	height: 445px;
