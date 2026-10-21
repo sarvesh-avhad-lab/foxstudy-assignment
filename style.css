@@ -1849,7 +1849,7 @@ hr {
 	}
 
 	.steps-div {
-		width: calc(100% - 220px);
+		width: calc(100% );
 		height: auto;
 		margin: auto;
 		display: flex;
@@ -2128,7 +2128,7 @@ hr {
 
 /* Mobile view  */
 
-@media (max-width:360px){
+@media (max-width:412px){
 	
 		/* Trusted by section  */
 	.trust-section {
@@ -2177,5 +2177,14 @@ hr {
 		flex-direction: column;
 		gap: 20px;
 	}
+
+	/* Experts section  */
+	.expert-top h4{
+		width: calc(100%);
+		height: auto;
+		font-size: 22px;
+		line-height: 1.6;
+	}
+	
 
 }
