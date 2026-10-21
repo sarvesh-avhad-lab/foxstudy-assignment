@@ -1977,6 +1977,32 @@ hr {
 		padding: auto;
 	}
 
+	/* reviews-section */
+	.reviews-section {
+		width: 100%;
+		height: auto;
+		padding: 20px 20px;
+	}
+
+	.cards {
+		width: calc(100% - 150px);
+		height: auto;
+
+	}
+
+	.cards img {
+		width: 32px;
+		height: 32px;
+	}
+
+	.cards p {
+		font-size: 16px;
+
+		white-space: normal;
+		overflow-wrap: break-word;
+		word-break: break-word;
+		max-width: 100%;
+	}
 
 	
 }
