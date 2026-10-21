@@ -2242,4 +2242,54 @@ hr {
 		max-width: 100%;
 	}
 
+	.final-main {
+		width: 100%;
+		height: auto;
+	}
+
+	.final-div-container {
+		margin: 0px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+
+	}
+
+	#dr-tilted {
+		width: 450px;
+		height: 450px;	
+		
+	
+	}
+
+	.final-main-right {
+		/* width: calc(100%-200px);
+		height: auto; */
+
+		height: 390px;
+		width: 390px;
+		margin: 5px;
+		padding: 0px;
+	}
+
+	.black-bg-div {
+		height: 370px;
+		width: 370px;
+		margin: auto;
+	}
+
+	.white-border {
+		width: 360px;
+		height: 360px;
+		margin: 10px;
+	}
+
+	.black-bg-div h4 {
+		width: 100%;
+		margin: 10px auto;
+		font-size: 25px;
+		line-height: 1.6;
+	}
+
+
 }
