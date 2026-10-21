@@ -1703,6 +1703,15 @@ hr {
 	overflow-x: hidden;
 	}
 
+	/* header section  */
+	.header-right {
+		display: none;
+	}
+
+	.hamburger {
+		
+	}
+
     .hero-section {
         width: calc(100% - 32px);
         height: auto;
