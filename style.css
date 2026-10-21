@@ -1699,9 +1699,9 @@ hr {
 @media (max-width: 768px) {
 
 	html, body {
-		max-width: 100%;
-		overflow-x: hidden;
-		}
+	max-width: 100%;
+	overflow-x: hidden;
+	}
 
     .hero-section {
         width: calc(100% - 32px);
@@ -1810,6 +1810,18 @@ hr {
 		height: auto;
 		display: flex;
 		
+	}
+
+	/* course-category cards  */
+	.courses-section  {
+		width: 100%;
+		height: auto;
+	}
+
+	.courses-cards {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
 	}
 
 	
