@@ -2049,4 +2049,31 @@ hr {
 
 	}
 
+	.final-main {
+		width: 100%;
+		height: auto;
+
+		padding: 10px 10px;	
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+
+		
+	}
+
+	.final-div-container {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+
+	.final-main-left img {
+		width: 280px;
+		height: 260px;
+
+
+	}
+
 }
