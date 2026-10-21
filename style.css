@@ -1922,6 +1922,54 @@ hr {
 		height: auto;
 	}
 	
+	/* Plans section  */
+	.plans-section {
+		width: 100%;
+		height: auto;
+	}
+
+	.upper-div {
+		width: 100%;
+		height: auto;
+
+	}
+
+	.upper-div h4 {
+		font-size: 25px;
+	}
+
+	.upper-div p{
+
+		font-size: 16px;
+
+		white-space: normal;
+		overflow-wrap: break-word;
+		word-break: break-word;
+		max-width: 100%;
+	}
+
+	.plans {
+		width: 100%;
+		height: auto;
+
+		display: flex;
+		flex-direction: column;
+
+		flex-wrap: wrap;
+
+		align-items: center;
+
+		gap: 20px;
+
+	}
+
+	.plan-card {
+		width: 700px;
+		height: auto;
+
+		margin: auto;
+		padding: auto;
+	}
 
 
 	
