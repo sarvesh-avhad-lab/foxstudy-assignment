@@ -2124,3 +2124,38 @@ hr {
 
 
 }
+
+
+/* Mobile view  */
+
+@media (max-width:360px){
+	
+		/* Trusted by section  */
+	.trust-section {
+		width: 100%;
+		height: auto;
+		margin: 10px auto 10px;
+	}
+
+	.trust-section  h3 {
+		width: calc(100%);
+		height: auto;
+		font-size: 32px;
+		line-height: 1.6;
+		align-items: center;
+	}
+
+	.trust-section  p {
+		height: auto;
+		font-size: 16px;
+		line-height: 1.6;
+
+		
+		white-space: normal;
+		overflow-wrap: break-word;
+		word-break: break-word;
+		max-width: 100%;
+
+	}
+
+}
