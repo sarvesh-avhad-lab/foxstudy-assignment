@@ -2072,8 +2072,46 @@ hr {
 	.final-main-left img {
 		width: 280px;
 		height: 260px;
-
-
 	}
+
+	/* footer section  */
+	.footer-container {
+		width: 100%;
+		height: auto;
+
+		margin: 0px;
+
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+
+	.footer-top {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap	;
+	}
+
+	.footer-middle {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap	;
+	}
+
+	.footer-middle-left {
+		margin-left: 70px;
+	}
+
+	.footer-middle-right {
+		margin-left: 70px;
+	}
+
+	.footer-top {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap	;
+	}
+
 
 }
