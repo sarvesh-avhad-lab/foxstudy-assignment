@@ -2214,4 +2214,32 @@ hr {
 		width: 100%;		
 	}
 
+	/* FAQ section  */
+	.faq-questions {
+		width: 100%; 
+		height: auto;
+		margin: 10px auto;
+	}
+
+	.questions-left,
+	.questions-right {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 100%;
+		height: auto;
+	}
+
+	.faq-questions h5 {
+		width: 100%;
+		height: auto;
+		font-size: 13px;
+		line-height: 1.6;
+
+		white-space: normal;
+		overflow-wrap: break-word;
+		word-break: break-word;
+		max-width: 100%;
+	}
+
 }
