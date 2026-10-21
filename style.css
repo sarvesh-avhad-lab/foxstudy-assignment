@@ -1979,7 +1979,7 @@ hr {
 	}
 
 	.plan-card {
-		width: 700px;
+		width: 100%;
 		height: auto;
 
 		margin: auto;
@@ -2191,5 +2191,6 @@ hr {
 		font-size: 16px;
 		line-height: 1.6;
 	}
+
 
 }
