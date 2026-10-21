@@ -1867,6 +1867,46 @@ hr {
 
 	.step3-description {
 		margin-left: 10px;	
+		height: 153px;
 	}
+
+	/* Experts section  */
+	.expert-section {
+		width: 100%;
+		height: auto;
+	}
+
+	.expert-container {
+		width: calc(100%-32px);
+		margin: auto;
+		
+	}
+
+	.top-content {
+		width: calc(100%-32px);
+		height: auto;
+		font-size: 22px;
+		line-height: 1.6;
+	}
+
+	.expert-top h4{
+		width: calc(100%-32px);
+		height: auto;
+		font-size: 22px;
+		line-height: 1.6;
+	}
+
+	.expert-top p{
+		width: calc(100%-32px);
+		height: auto;
+		line-height: 1.6;
+
+		white-space: normal;
+		overflow-wrap: break-word;
+		word-break: break-word;
+		max-width: 100%;
+	}
+
+
 	
 }
