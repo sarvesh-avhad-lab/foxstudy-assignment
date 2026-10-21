@@ -2004,5 +2004,49 @@ hr {
 		max-width: 100%;
 	}
 
+	/* faq-container  */
+	.faq-container {
+		width: 100%;
+		height: auto;
+
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+
+		margin: 20px auto;
+	}
 	
+	#faq-heading {
+		width: 100%;
+		height: auto;
+		font-size: 32px;
+		white-space: normal;
+		overflow-wrap: break-word;
+		word-break: break-word;
+		
+		margin: 40px auto;
+	}
+
+	.faq-questions {
+		width: 100%;
+		height: auto;
+
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+
+	}
+
+	.questions-left {
+		width: 100%;
+		height: auto;
+
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+
+	}
+
 }
