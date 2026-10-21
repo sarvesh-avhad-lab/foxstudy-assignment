@@ -1757,14 +1757,14 @@ hr {
 	/* feature cards */
 
 	.features-cards{
-		width: calc(100%);
+		width: 100%;
         height: auto;
         margin: 0 auto 30px;
 		
-		display: grid;
+		display: flex;
+		flex-direction: column;
 		flex-wrap: wrap;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		justify-content: space-between;
+		align-items: center;
 		gap: 10px;
 	}
 
@@ -1822,6 +1822,8 @@ hr {
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	/* start learning section  */
@@ -1910,16 +1912,20 @@ hr {
 	/* Experts cards section  */
 	.experts-card {
 		width: 100%;
+		height: auto;
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
-
+		justify-content: center;
 		align-items: center;
+
+		margin: 0 auto 30px;
 	}
 	
 	.indi-expert {
 		width: 315px;
 		height: auto;
+		align-items: center;
 	}
 	
 	/* Plans section  */
@@ -1954,12 +1960,12 @@ hr {
 
 		display: flex;
 		flex-direction: column;
-
 		flex-wrap: wrap;
-
 		align-items: center;
-
+		justify-content: center;
 		gap: 20px;
+
+		margin: 0 auto 30px;
 
 	}
 
