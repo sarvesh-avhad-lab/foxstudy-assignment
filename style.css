@@ -1845,6 +1845,7 @@ hr {
 		flex-wrap: wrap;
 
 		align-items: center;
+		
 	}
 
 	.learning-steps{
@@ -1856,7 +1857,16 @@ hr {
 		flex-direction: column;
 		flex-wrap: wrap;
 		margin: auto;
+		padding: auto;
 	}
 
+	.step2-description {
+		margin-left: 10px;	
+		height: 153px;
+	}
+
+	.step3-description {
+		margin-left: 10px;	
+	}
 	
 }
