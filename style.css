@@ -1762,7 +1762,7 @@ hr {
         margin: 0 auto 30px;
 		
 		display: grid;
-		flex: wrap;
+		flex-wrap: wrap;
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 		justify-content: space-between;
 		gap: 10px;
@@ -1822,6 +1822,40 @@ hr {
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
+	}
+
+	/* start learning section  */
+	.learning-steps-section {
+		width: 100%;
+		height: auto;
+		
+	}
+
+	.learning-steps-section h3 {
+		width: 100%;
+		height: auto;
+		margin: auto;
+	}
+
+	.steps-div {
+		width: calc(100% - 220px);
+		height: auto;
+		margin: auto;
+		display: flex;
+		flex-wrap: wrap;
+
+		align-items: center;
+	}
+
+	.learning-steps{
+		display: none;	
+	}
+
+	.steps-description {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin: auto;
 	}
 
 	
