@@ -1698,6 +1698,11 @@ hr {
 /* Mobile and tablet */
 @media (max-width: 768px) {
 
+	html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+		}
+
     .hero-section {
         width: calc(100% - 32px);
         height: auto;
@@ -1793,4 +1798,19 @@ hr {
 		max-width: 100%;
 
 	}
+
+	/* logo section  */
+	.client-logos {
+		width: 100%;
+		height: auto;
+	}
+
+	.trust-logo-container {
+		width: 100%;
+		height: auto;
+		display: flex;
+		
+	}
+
+	
 }
