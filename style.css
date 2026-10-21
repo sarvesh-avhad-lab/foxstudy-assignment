@@ -1907,6 +1907,22 @@ hr {
 		max-width: 100%;
 	}
 
+	/* Experts cards section  */
+	.experts-card {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+
+		align-items: center;
+	}
+	
+	.indi-expert {
+		width: 315px;
+		height: auto;
+	}
+	
+
 
 	
 }
