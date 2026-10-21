@@ -335,6 +335,8 @@ Features cards
 	margin-top: 4.5px;
 }
 
+/* Trusted by section  */
+
 .trust-section {
 	margin-top: 100px;
 	margin-left: 349.65px;
@@ -1767,4 +1769,28 @@ hr {
 		margin-left: 10px;
 	} 
 
+	/* Trusted by section  */
+	.trust-section {
+		width: 100%;
+		height: auto;
+		margin: 10px auto 10px;
+	}
+
+	.trust-section  h3 {
+		width: calc(100%-32px);
+		height: auto;
+	}
+
+	.trust-section  p {
+		height: auto;
+		font-size: 16px;
+		line-height: 1.6;
+
+		
+		white-space: normal;
+		overflow-wrap: break-word;
+		word-break: break-word;
+		max-width: 100%;
+
+	}
 }
