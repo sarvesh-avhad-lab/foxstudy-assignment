@@ -2192,5 +2192,26 @@ hr {
 		line-height: 1.6;
 	}
 
+	/* review section  */
+	.cards {
+		width: calc(100%);
+		height: auto;
+
+	}
+
+	.card {
+		width: 100%;
+		padding: 10px ;
+	}
+
+	.cards img {
+		width: 25px;
+		height: 25px;
+	}
+
+	.cards p {
+		font-size: 16px;
+		width: 100%;		
+	}
 
 }
