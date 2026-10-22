@@ -444,7 +444,6 @@ Features cards
     font-weight: 600;
     line-height: 63px;
     letter-spacing: 0.42px;
-    text-transform: capitalize;
     text-align: center;
 }
 
@@ -501,7 +500,6 @@ Features cards
     background: transparent;
     cursor: pointer;
     white-space: nowrap;
-    transition: all 0.25s ease;
     user-select: none;
 }
 
@@ -518,7 +516,6 @@ Features cards
     font-weight: 500;
     line-height: normal;
     color: #1E1810;
-    transition: color 0.2s ease;
 }
 
 .category-div#basic {
@@ -694,7 +691,6 @@ Features cards
     font-size: 12.8px;
     font-weight: 500;
     cursor: pointer;
-    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 
@@ -728,7 +724,6 @@ Features cards
     white-space: nowrap;
     cursor: pointer;
     box-shadow: 0 4px 14px rgba(220, 67, 41, 0.25);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .view-all-btn img {
@@ -1188,7 +1183,6 @@ Exoert section
     font-weight: 600;
     line-height: 63px;
     letter-spacing: 0.42px;
-    text-transform: capitalize;
     text-align: center;
 
 }
@@ -1219,7 +1213,6 @@ Exoert section
     height: 325.5px;
     border-radius: 21px;
     box-sizing: border-box;
-    transition: all 0.3s ease;
 }
 
 
@@ -1351,7 +1344,6 @@ Exoert section
     background: transparent;
     border: 0;
     cursor: pointer;
-    transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 
