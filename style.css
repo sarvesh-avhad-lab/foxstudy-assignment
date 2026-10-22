@@ -923,19 +923,19 @@ Exoert section
 
 
 #janne1 {
-    background-image: url("./images/experts/janne.jpg");
+    background-image: linear-gradient(to bottom, #1E1E1E00 0%, #1E1E1E 100%), url("./images/experts/janne.jpg");
 }
 
 #myrtha2 {
-    background-image: url("./images/experts/myrtha.jpg");
+    background-image: linear-gradient(to bottom, #1E1E1E00 0%, #1E1E1E 100%), url("./images/experts/myrtha.jpg");
 }
 
 #prof3 {
-    background-image: url("./images/experts/prof.jpg");
+    background-image: linear-gradient(to bottom, #1E1E1E00 0%, #1E1E1E 100%), url("./images/experts/prof.jpg");
 }
 
 #dr {
-    background-image: url("./images/experts/dr.jpg");
+    background-image: linear-gradient(to bottom, #1E1E1E00 0%, #1E1E1E 100%), url("./images/experts/dr.jpg");
 }
 
 .indi-expert h5 {
