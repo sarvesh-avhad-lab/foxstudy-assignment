@@ -2331,6 +2331,30 @@ hr {
 		margin-bottom: 30px;	
 	}
 
+	/* footer middle  */
+	.footer-middle {
+		width: 100%;
+		margin: 10px 10px;
+	}
+
+	.footer-middle-left,
+	.footer-middle-right {
+		margin: 10px 5px;	
+	} 
+
+	.footer-middle-right {
+		width: calc(100%-100px);
+		display: flex;
+		flex-wrap: wrap;
+
+		justify-content: flex-start;
+		gap: 20px;
+	}
+
+	.footer-list {
+		font-size: 12px;
+	}
+
 	
 
 
