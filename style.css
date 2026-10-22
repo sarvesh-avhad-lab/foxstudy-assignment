@@ -2355,6 +2355,30 @@ hr {
 		font-size: 12px;
 	}
 
+	/* footer bottom  */
+	.footer-bottom {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+
+		margin: 10px;
+		gap: 20px;
+	}
+
+	.footer-bottom-right {
+		height: auto;
+		display: flex;
+		gap: 20px;
+		justify-content: flex-start;
+
+		
+	}
+
+	.footer-bottom-right span {
+		margin: 0px;
+	}
+
+
 	
 
 
