@@ -1204,6 +1204,8 @@ Exoert section
     max-width: 934.5px;
     height: 365px;
     margin: 84px auto 0;
+
+	display: grid;
 }
 
 .cards::before,
@@ -1240,6 +1242,19 @@ Exoert section
     justify-content: space-between;
     z-index: 3;
     box-shadow: 0 10px 30px rgba(30, 24, 16, 0.05);
+}
+
+.card-no-1,
+.card-no-2 {
+	grid-row: 1;
+  	grid-column: 1;
+}
+
+.card-no-2 {
+	top: 20px;
+	left: 10px;
+	background-color: #FFFFFF;
+	z-index: 2;		
 }
 
 
